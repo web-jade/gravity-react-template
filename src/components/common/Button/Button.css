@@ -1,0 +1,31 @@
+.Button {
+  padding: 0 35px;
+  margin: 0;
+
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.Button_primary {
+  color: #FFFFFF;
+  background-color: #4737FF;
+}
+
+.Button_primary:hover {
+  background-color: #5446ff;
+}
+
+.Button_primary:focus {
+  background-color: #3d23ff;
+}

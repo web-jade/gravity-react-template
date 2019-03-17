@@ -1,0 +1,19 @@
+@import "~normalize.css";
+@import "./Icomoon.css";
+
+body {
+    margin: 0;
+    padding: 0;
+
+    direction: ltr;
+    font-family: "Fira Sans";
+
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+
+    background-color: #F4F4F4;
+}
+
+.App {
+
+}

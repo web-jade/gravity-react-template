@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+
+  color: #222222;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  outline: none;
+
+  transition: .15s ease;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #4737FF;
+}
+
+.search {
+  width: 20px;
+  height: 20px;
+
+  padding: 0;
+  margin: 0;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+
+  background-image: url('./assets/icon-search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

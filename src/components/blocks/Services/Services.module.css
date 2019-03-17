@@ -1,0 +1,118 @@
+.container {}
+
+.header {
+  margin: 40px 0 100px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+.heading {
+  margin: 0;
+  padding: 0;
+
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+}
+
+.navigation {
+  margin-left: 160px;
+  max-width: 385px;
+  flex-shrink: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: calc(100% / 2);
+  height: 28px;
+
+  margin: 0 0 21px 0;
+  padding: 0;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+
+  color: rgba(34, 34, 34, .7);
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.item:hover {
+  color: rgba(34, 34, 34, 1);
+}
+
+.item:focus,
+.item:active {
+  color: #4737FF;
+}
+
+.itemCurrent {
+  color: #4737FF;
+  font-weight: bold;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  transition: .55s ease;
+}
+
+.slider > .slide:not(:last-child) {
+  margin-right: 30px;
+}
+
+.image {
+  width: 750px;
+  height: 500px;
+}
+
+.arrows {
+  margin-top: 50px;
+}
+
+/*
+  Slider arrow
+*/
+.arrow {
+  margin: 0;
+  padding: 0;
+
+  width: 50px;
+  height: 50px;
+
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: #C4C4C4;
+  background-image: url('./assets/icon-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .15s ease;
+}
+
+.arrow:hover {
+  background-color: #5446ff;
+}
+
+.arrow:focus {
+  background-color: #3d23ff;
+}
+
+.arrowLeft {
+  transform: rotate(0);
+  margin-right: 25px;
+}
+
+.arrowRight {
+  transform: rotate(180deg);
+}

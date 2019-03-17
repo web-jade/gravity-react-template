@@ -1,0 +1,16 @@
+.BlockTitle {
+  margin: 0;
+  padding: 0;
+
+  color: rgba(34, 34, 34, .7);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.BlockTitle:before {
+  content: "—";
+  margin-right: 3px;
+}

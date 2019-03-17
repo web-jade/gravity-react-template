@@ -1,0 +1,33 @@
+.body {
+  margin-left: 25px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+}
+
+.username {
+  padding: 0;
+  margin: 0;
+
+  color: #222222;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.position {
+  padding: 0;
+  margin: 0;
+
+  color: rgba(34, 34, 34, .7);
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+}

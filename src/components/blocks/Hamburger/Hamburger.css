@@ -1,0 +1,49 @@
+.Hamburger {
+  position: relative;
+
+  width: 34px;
+  height: 14px;
+
+  padding: 0;
+  margin: 0;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.Hamburger:before,
+.Hamburger:after {
+  position: absolute;
+  content: "";
+
+  right: 0;
+
+  width: auto;
+  height: 3px;
+  display: inline-block;
+  transition: .15s ease;
+
+  background-color: #222222;
+}
+
+.Hamburger:before {
+  width: 100%;
+
+  top: 0;
+}
+
+.Hamburger:after {
+  width: 50%;
+
+  bottom: 0;
+}
+
+.Hamburger:focus:before,
+.Hamburger:hover:before,
+.Hamburger:focus:after,
+.Hamburger:hover:after{
+  background-color: #4737FF;
+}
